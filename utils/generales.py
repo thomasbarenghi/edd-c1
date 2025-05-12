@@ -16,3 +16,12 @@ def es_par(n):
 
 def uno_si_cero_sino(condicion):
     return 1 if condicion else 0
+
+
+def validar_tipo(tipo: str, opciones):
+    es_valido = tipo in opciones
+
+    if not es_valido:
+        raise Exception("Tipo invalido")
+
+    return tipo
