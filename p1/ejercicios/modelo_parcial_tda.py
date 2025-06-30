@@ -1,6 +1,7 @@
-from estructuras.pila import Pila
-from utils.generales import validar_tipo
-from utils.utils_pilas import reducir, buscar, eliminar_elemento
+from p1.estructuras.pila import Pila
+from p1.utils.generales import validar_tipo
+from p1.utils.utils_colas import eliminar_elemento
+from p1.utils.utils_listas import reducir, buscar
 
 
 class Juzgado:
